@@ -13,8 +13,8 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - name: http
-      port: 8080
-      targetPort: 8080
+      port: 6060
+      targetPort: 6060
       protocol: TCP
 {{- with .Values.service.externalIPs }}
   externalIPs: {{ toYaml . | nindent 4 }}
