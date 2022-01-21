@@ -73,12 +73,12 @@ strategy:
 livenessProbe:
   httpGet:
     path: /health/live
-    port: 8080
+    port: 6060
 
 readinessProbe:
   httpGet:
     path: /health/ready
-    port: 8080
+    port: 6060
   initialDelaySeconds: 5
   timeoutSeconds: 5
   failureThreshold: 3
