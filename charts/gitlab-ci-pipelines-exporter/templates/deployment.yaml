@@ -75,7 +75,7 @@ spec:
               subPath: config.yml
           ports:
             - name: exporter
-              containerPort: 8080
+              containerPort: 6060
               protocol: TCP
 {{- with .Values.livenessProbe }}
           livenessProbe: {{ toYaml . | nindent 16 }}
