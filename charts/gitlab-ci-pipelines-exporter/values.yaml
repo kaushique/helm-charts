@@ -117,7 +117,7 @@ envVariables:
     value: tcp://127.0.0.1:8082
 
 # config -- configuration of the exporter
-config: {}
+config:
   # # Complete configuration syntax reference available here:
   # # https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/blob/master/docs/configuration_syntax.md
   gitlab:
