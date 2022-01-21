@@ -120,12 +120,17 @@ envVariables:
 config: {}
   # # Complete configuration syntax reference available here:
   # # https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/blob/master/docs/configuration_syntax.md
-  # gitlab:
-  #   url: https://gitlab.example.com
-  #   token: <your_token>
-  # projects:
-  #   - name: foo/project
-  #   - name: bar/project
+  gitlab:
+    url: https://cloudlab.us.oracle.com
+    token: 6tP6QGCQx4N2HWAs2pbZ
+  projects:
+    - name: 41993
+    - name: 46058
+    - name: 45467
+    - name: 45098
+    - name: 45466
+    - name: 45468
+    - name: 45469
   # wildcards:
   #   - owner:
   #       name: foo
